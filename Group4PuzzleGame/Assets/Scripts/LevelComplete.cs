@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelComplete : MonoBehaviour
 {
-    public int sceneBuildIndex;
+    public string sceneBuildIndex;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
