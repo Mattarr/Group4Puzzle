@@ -1,7 +1,34 @@
 fileFormatVersion: 2
-guid: 21634776f403f4629937c74dc0ef663a
+guid: 7625959beeba64b6c917fa31e81bc67c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 721753111809406882
+    second: woodbrick16-bottomleft
+  - first:
+      213: 5410503462595454990
+    second: woodbrick16-bottommiddle
+  - first:
+      213: 8735578103615987969
+    second: woodbrick16-bottomright
+  - first:
+      213: 8440415688672045478
+    second: woodbrick16-woodleft
+  - first:
+      213: -8495443634949322041
+    second: woodbrick16-woodmiddle
+  - first:
+      213: 2018406236666187694
+    second: woodbrick16-woodright
+  - first:
+      213: 7126902383976169067
+    second: woodbrick16-middleleft
+  - first:
+      213: -1683402320359402175
+    second: woodbrick16-middle
+  - first:
+      213: -6077179468305206584
+    second: woodbrick16-middleright
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -91,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Maid-Sprite-Still
+      name: woodfloor
       rect:
         serializedVersion: 2
-        x: 15
-        y: 333
-        width: 19
-        height: 39
+        x: 80
+        y: 47
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,13 +139,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MudMonster-1-Sprite-Still
+      name: stonefloor
       rect:
         serializedVersion: 2
-        x: 50
-        y: 333
-        width: 20
-        height: 40
+        x: 112
+        y: 47
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,13 +160,118 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dining Table
+      name: checker-floor
       rect:
         serializedVersion: 2
-        x: 379
-        y: 301
-        width: 100
-        height: 65
+        x: 144
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d916e70245e71380800000000000000
+      internalID: -9000473258513524264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window-red
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 174
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6892ae4b86133bdd0800000000000000
+      internalID: -2471577444714665594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window-pink
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 174
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8355d975d1f1bd90800000000000000
+      internalID: -7083614839702727798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window-blue
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 174
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e821903b9d7470800000000000000
+      internalID: 8394035913384584780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed-red
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 175
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a0f51093a77bf00800000000000000
+      internalID: 1132508216561699473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bed-blue
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 175
+        width: 34
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,13 +286,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwallbase
+      name: bedside-red
       rect:
         serializedVersion: 2
-        x: 16
-        y: 269
+        x: 320
+        y: 181
         width: 48
-        height: 32
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,13 +307,139 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwall-BottomLeft
+      name: bedside-blue
       rect:
         serializedVersion: 2
-        x: 16
-        y: 205
-        width: 16
-        height: 16
+        x: 320
+        y: 138
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba5e4f85ac92d8a0800000000000000
+      internalID: -6281786295340606794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 127
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7233f18e96e190800000000000000
+      internalID: -7933479412598408212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crate-small
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 90
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43800b8b6a768a9c0800000000000000
+      internalID: -3915765910237870028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crate-big
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 89
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7499d65751a81a0800000000000000
+      internalID: -6806604292722964505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair-front
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 223
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983297e0191250070800000000000000
+      internalID: 8071894814028276617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair-left
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 223
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6623b5fe2b289d560800000000000000
+      internalID: 7339040772808454758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair-right
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 223
+        width: 18
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,13 +454,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wallbase-BottomLeft
+      name: chair-back
       rect:
         serializedVersion: 2
-        x: 80
-        y: 205
-        width: 16
-        height: 16
+        x: 335
+        y: 223
+        width: 18
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,13 +475,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickWall-CenterLeft
+      name: table
       rect:
         serializedVersion: 2
-        x: 144
-        y: 221
-        width: 16
-        height: 16
+        x: 171
+        y: 223
+        width: 54
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,13 +496,97 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: maid tile set_22
+      name: maid-sprite-still
       rect:
         serializedVersion: 2
-        x: 183
-        y: 179
-        width: 1
-        height: 1
+        x: 77
+        y: 223
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476bd2244bafa2280800000000000000
+      internalID: -9067159247645723020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sludgemonster-still-sprite
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 224
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b1d117699f624c0800000000000000
+      internalID: -4312485168622527715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence-leftend
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cec7ab2aa8a3c90800000000000000
+      internalID: -7189281423625491385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence-leftmid
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928d4230dded7d550800000000000000
+      internalID: 6185657654038550569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence-leftfront
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,13 +601,97 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodFloor-Dirt
+      name: fence-middle
       rect:
         serializedVersion: 2
-        x: 80
-        y: 125
-        width: 32
-        height: 32
+        x: 32
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a0d9476e791b900800000000000000
+      internalID: 698506433273858623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence-rightfront
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65db84121f0575c60800000000000000
+      internalID: 7806797475645799766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence-rightmid
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 47
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad47c0158dcebb90800000000000000
+      internalID: -7224110780859855448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence-rightend
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 63
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4266cecdc67ff1f00800000000000000
+      internalID: 1089861681781958180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outerwall-Lcorner-left
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,13 +706,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chest
+      name: outerwall-Lcorner-right
       rect:
         serializedVersion: 2
         x: 256
-        y: 157
-        width: 31
-        height: 19
+        y: 98
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,13 +727,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Portrait-Small
+      name: outwall-topendclose
       rect:
         serializedVersion: 2
-        x: 316
-        y: 153
-        width: 24
-        height: 26
+        x: 225
+        y: 95
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,13 +748,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch
+      name: outerwall-closedmiddle
       rect:
         serializedVersion: 2
-        x: 371
-        y: 173
-        width: 10
-        height: 17
+        x: 225
+        y: 79
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,13 +769,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BookShelf
+      name: cornerwall-bottemendclose
       rect:
         serializedVersion: 2
-        x: 192
-        y: 125
-        width: 32
-        height: 44
+        x: 225
+        y: 69
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,13 +790,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door-Open-Left
+      name: outerwall-sideways-left-closed
       rect:
         serializedVersion: 2
-        x: 225
-        y: 45
-        width: 25
-        height: 48
+        x: 249
+        y: 81
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,13 +811,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Portrait-Large
+      name: outerwall-closed-middle
       rect:
         serializedVersion: 2
-        x: 284
-        y: 89
-        width: 56
-        height: 42
+        x: 256
+        y: 81
+        width: 16
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,12 +832,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-1
+      name: outerwall-closed-right
       rect:
         serializedVersion: 2
-        x: 82
-        y: 110
-        width: 9
+        x: 272
+        y: 81
+        width: 7
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -427,13 +853,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-2
+      name: outerwall-inner-bottom-left
       rect:
         serializedVersion: 2
-        x: 95
-        y: 111
-        width: 15
-        height: 10
+        x: 240
+        y: 130
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,13 +874,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-4
+      name: outerwall-inner-upper-left
       rect:
         serializedVersion: 2
-        x: 113
-        y: 106
-        width: 11
-        height: 15
+        x: 240
+        y: 146
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,13 +895,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-6
+      name: outer-inner-upper-right
       rect:
         serializedVersion: 2
-        x: 130
-        y: 111
-        width: 10
-        height: 10
+        x: 256
+        y: 146
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,13 +916,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-9
+      name: outer-inner-bottom-right
       rect:
         serializedVersion: 2
-        x: 145
-        y: 111
-        width: 12
-        height: 12
+        x: 256
+        y: 130
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,13 +937,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-11
+      name: outer-upper-leftcorner
       rect:
         serializedVersion: 2
-        x: 163
-        y: 109
-        width: 11
-        height: 12
+        x: 201
+        y: 159
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,13 +958,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-3
+      name: outer-left-middle
       rect:
         serializedVersion: 2
-        x: 82
-        y: 95
-        width: 27
-        height: 15
+        x: 201
+        y: 143
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,13 +979,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-5
+      name: outer-bottom-leftcorner
       rect:
         serializedVersion: 2
-        x: 113
-        y: 96
-        width: 6
-        height: 7
+        x: 201
+        y: 131
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,13 +1000,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-7
+      name: outer-bottom
       rect:
         serializedVersion: 2
-        x: 122
-        y: 95
-        width: 15
-        height: 15
+        x: 208
+        y: 131
+        width: 16
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,12 +1021,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-10
+      name: upper-top
       rect:
         serializedVersion: 2
-        x: 147
-        y: 93
-        width: 11
+        x: 208
+        y: 153
+        width: 16
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -616,12 +1042,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-12
+      name: outer-upper-rightcorner
       rect:
         serializedVersion: 2
-        x: 162
-        y: 99
-        width: 5
+        x: 224
+        y: 159
+        width: 7
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -637,13 +1063,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-13
+      name: outer-right-middle
       rect:
         serializedVersion: 2
-        x: 168
-        y: 96
-        width: 4
-        height: 6
+        x: 224
+        y: 142
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,13 +1084,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mud-8
+      name: outer-bottom-rightcorner
       rect:
         serializedVersion: 2
-        x: 135
-        y: 95
-        width: 6
-        height: 4
+        x: 224
+        y: 131
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,13 +1105,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stone-Blank
+      name: woodwallbottom-middle
       rect:
         serializedVersion: 2
-        x: 16
-        y: 61
-        width: 16
-        height: 16
+        x: 112
+        y: 79
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,13 +1126,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stone-Outer-BottomLeft
+      name: woodwallbottom-leftend
       rect:
         serializedVersion: 2
-        x: 51
-        y: 51
-        width: 13
-        height: 10
+        x: 80
+        y: 79
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,13 +1147,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door-Front
+      name: woodwallbottom-rightend
       rect:
         serializedVersion: 2
-        x: 112
-        y: 45
+        x: 144
+        y: 79
         width: 32
-        height: 44
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -742,13 +1168,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door-Side
+      name: woodbrick-leftmiddle
       rect:
         serializedVersion: 2
-        x: 160
-        y: 45
-        width: 9
-        height: 48
+        x: 80
+        y: 111
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,13 +1189,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door-Open-Right
+      name: brickwall
       rect:
         serializedVersion: 2
-        x: 192
-        y: 45
-        width: 24
-        height: 48
+        x: 112
+        y: 111
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -784,13 +1210,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carpet-Blue
+      name: woodbrickwall-rightmiddle
       rect:
         serializedVersion: 2
-        x: 268
-        y: 25
-        width: 88
-        height: 56
+        x: 144
+        y: 111
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -805,13 +1231,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CarpetGreen
+      name: woodbrickwall-lefttop
       rect:
         serializedVersion: 2
-        x: 364
-        y: 25
-        width: 88
-        height: 56
+        x: 80
+        y: 143
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -826,12 +1252,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodWall-Bottom
+      name: woodbrickwall-topmiddle
       rect:
         serializedVersion: 2
-        x: 32
-        y: 205
-        width: 16
+        x: 112
+        y: 143
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -847,12 +1273,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WoodWall-BottomRight
+      name: woodbrickwall-topright
       rect:
         serializedVersion: 2
-        x: 48
-        y: 205
-        width: 16
+        x: 144
+        y: 143
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -868,11 +1294,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwall-Centerleft
+      name: woodwall-bottomleftcorner
       rect:
         serializedVersion: 2
         x: 16
-        y: 221
+        y: 175
         width: 16
         height: 16
       alignment: 0
@@ -889,11 +1315,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwall-Center
+      name: woodlwall-bottom
       rect:
         serializedVersion: 2
         x: 32
-        y: 221
+        y: 175
         width: 16
         height: 16
       alignment: 0
@@ -910,11 +1336,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwall-CenterRight
+      name: woodwall-bottomrightcorner
       rect:
         serializedVersion: 2
         x: 48
-        y: 221
+        y: 175
         width: 16
         height: 16
       alignment: 0
@@ -931,11 +1357,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwall-Topleft
+      name: woodwall-middle
       rect:
         serializedVersion: 2
-        x: 16
-        y: 237
+        x: 32
+        y: 191
         width: 16
         height: 16
       alignment: 0
@@ -952,11 +1378,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwall-Top
+      name: woodwall-middle-left
       rect:
         serializedVersion: 2
-        x: 32
-        y: 237
+        x: 16
+        y: 191
         width: 16
         height: 16
       alignment: 0
@@ -973,11 +1399,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Woodwall-TopRight
+      name: woodwall-middle-right
       rect:
         serializedVersion: 2
         x: 48
-        y: 237
+        y: 191
         width: 16
         height: 16
       alignment: 0
@@ -994,11 +1420,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wallbase-Bottom
+      name: woodwall-top-left
       rect:
         serializedVersion: 2
-        x: 96
-        y: 205
+        x: 16
+        y: 207
         width: 16
         height: 16
       alignment: 0
@@ -1015,11 +1441,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wallbase-BottomRight
+      name: woodwall-top-middle
       rect:
         serializedVersion: 2
-        x: 112
-        y: 205
+        x: 32
+        y: 207
         width: 16
         height: 16
       alignment: 0
@@ -1036,11 +1462,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Redwall-CenterLeft
+      name: woodwall-top-right
       rect:
         serializedVersion: 2
-        x: 80
-        y: 221
+        x: 48
+        y: 207
         width: 16
         height: 16
       alignment: 0
@@ -1057,11 +1483,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Redwall-Center
+      name: woodbrick16-top-left
       rect:
         serializedVersion: 2
-        x: 96
-        y: 221
+        x: 16
+        y: 143
         width: 16
         height: 16
       alignment: 0
@@ -1078,11 +1504,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Redwall-CenterRight
+      name: woodbrick16-bottomleft
       rect:
         serializedVersion: 2
-        x: 112
-        y: 221
+        x: 16
+        y: 79
         width: 16
         height: 16
       alignment: 0
@@ -1099,11 +1525,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Redwall-TopLeft
+      name: woodbrick16-bottommiddle
       rect:
         serializedVersion: 2
-        x: 80
-        y: 237
+        x: 32
+        y: 79
         width: 16
         height: 16
       alignment: 0
@@ -1120,11 +1546,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Redwall-Top
+      name: woodbrick16-bottomright
       rect:
         serializedVersion: 2
-        x: 96
-        y: 237
+        x: 48
+        y: 79
         width: 16
         height: 16
       alignment: 0
@@ -1141,11 +1567,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Redwall-TopRight
+      name: woodbrick16-woodleft
       rect:
         serializedVersion: 2
-        x: 112
-        y: 237
+        x: 16
+        y: 95
         width: 16
         height: 16
       alignment: 0
@@ -1162,11 +1588,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickWall-Center
+      name: woodbrick16-woodmiddle
       rect:
         serializedVersion: 2
-        x: 160
-        y: 221
+        x: 32
+        y: 95
         width: 16
         height: 16
       alignment: 0
@@ -1183,11 +1609,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickWall-CenterRight
+      name: woodbrick16-woodright
       rect:
         serializedVersion: 2
-        x: 176
-        y: 221
+        x: 48
+        y: 95
         width: 16
         height: 16
       alignment: 0
@@ -1204,11 +1630,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickWall-TopLeft
+      name: woodbrick16-middleleft
       rect:
         serializedVersion: 2
-        x: 144
-        y: 237
+        x: 16
+        y: 111
         width: 16
         height: 16
       alignment: 0
@@ -1225,11 +1651,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickWall-Top
+      name: woodbrick16-middle
       rect:
         serializedVersion: 2
-        x: 160
-        y: 237
+        x: 32
+        y: 111
         width: 16
         height: 16
       alignment: 0
@@ -1246,11 +1672,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickWall-TopRight
+      name: woodbrick16-middleright
       rect:
         serializedVersion: 2
-        x: 176
-        y: 237
+        x: 48
+        y: 111
         width: 16
         height: 16
       alignment: 0
@@ -1262,237 +1688,6 @@ TextureImporter:
       bones: []
       spriteID: 8c2fe5bc87589aba0800000000000000
       internalID: -6077179468305206584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StoneFloor-Dirt
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 125
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 854d73e3191906b30800000000000000
-      internalID: 4278579699002102872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CheckerFloor-Dirt
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 125
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56388c92fc44b76e0800000000000000
-      internalID: -1838800366300789915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chimney
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 93
-        width: 26
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ee0ebb4912144590800000000000000
-      internalID: -7691002363787735322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone-Outer-Bottom
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 51
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a207d0ef0749280800000000000000
-      internalID: -9037474315776284134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: maid tile set_79
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 51
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 948f1fc804c39a3f0800000000000000
-      internalID: -889113203488720823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StoneWall
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 61
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 802c64f1dd144d5d0800000000000000
-      internalID: -3038731430599933432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone-Outer-CenterLeft
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 61
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8edab22c19fd02c0800000000000000
-      internalID: -4463637756417220977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone-Outer-CenterRight
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 61
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d804587f8a75537d0800000000000000
-      internalID: -2939346798570553203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone-Outer-TopLeft
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 77
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f42b198b2cef84a10800000000000000
-      internalID: 1894043755582960207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone-Outer-Top
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 77
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4415628f46ee20080800000000000000
-      internalID: -9222546969473953468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone-Outer-TopRight
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 77
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e14d6fc4598984730800000000000000
-      internalID: 3983601637417997342
       vertices: []
       indices: 
       edges: []
