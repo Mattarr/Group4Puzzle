@@ -17,7 +17,7 @@ public class EnemyLogic : MonoBehaviour
 
     private void Start()
     {
-        target = GameObject.Find("Player").transform;
+        target = GameObject.Find("PlayerCharacter").transform;
     }
     private void Update()
     {
