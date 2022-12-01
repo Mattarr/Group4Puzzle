@@ -341,6 +341,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &349532001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4332118935805784141, guid: fbe8963d65b88414a8e1020983f521fa, type: 3}
+  m_PrefabInstance: {fileID: 4332118936856334390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &349532002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349532001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f070d39a2bd7cdd44abed9608a1b4e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1176822186}
+  speed: 5
+  distance: 0
 --- !u!1001 &447676355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -669,7 +689,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 709904569}
-  - component: {fileID: 709904570}
   m_Layer: 0
   m_Name: Player Move Point
   m_TagString: Untagged
@@ -691,23 +710,6 @@ Transform:
   m_Father: {fileID: 1176822191}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &709904570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709904568}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2cbcc14f65e6454d9fed4d77c5f9533, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  movePoint: {fileID: 709904569}
-  whatStopsMovement:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &761120895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1103,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1176822186}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2cbcc14f65e6454d9fed4d77c5f9533, type: 3}
+  m_Script: {fileID: 11500000, guid: 5389b1979db83f540a382f84d9a0841f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
@@ -4403,6 +4405,76 @@ Transform:
   m_Father: {fileID: 993040803}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2101421147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101421149}
+  - component: {fileID: 2101421148}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2101421148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101421147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc879cb8e7417c9459ae502a1b915688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMoveInput:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1176822187}
+        m_TargetAssemblyTypeName: Levels.Player, Assembly-CSharp
+        m_MethodName: MovePlayer
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 349532002}
+        m_TargetAssemblyTypeName: Levels.Enemy, Assembly-CSharp
+        m_MethodName: MoveEnemy
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &2101421149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101421147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.673713, y: 0.9213758, z: -4.5270295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118033772
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,5 +4665,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4332118935805784138, guid: fbe8963d65b88414a8e1020983f521fa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fbe8963d65b88414a8e1020983f521fa, type: 3}
