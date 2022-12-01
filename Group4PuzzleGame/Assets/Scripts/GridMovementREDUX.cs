@@ -5,51 +5,36 @@ using UnityEngine;
 public class GridMovementREDUX : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public bool isMoving;
-    public Vector3 origPos, targetPos;
-    public float timeToMove = 0.1f;
-    public Rigidbody2D rb;
-    public Vector2 movement;
+    public Transform movePoint;
+    public LayerMask whatStopsMovement;
+    
 
     private void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
+        movePoint.parent = null;
     }
 
-    void Update()
+    private void Update()
     {
-        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-    }
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
-    private void FixedUpdate()
-    {
-        MovePlayer(movement);
-    }
+        if (Vector3.Distance(transform.position, movePoint.position) <= .05f)
+        { 
 
-    /*private void MoveCharacter(Vector2 Direction)
-    {
-        rb.MovePosition((Vector2)transform.position + (Direction * moveSpeed * Time.deltaTime));
-
-    }*/
-
-    public IEnumerator MovePlayer(Vector2 direction)
-    {
-        isMoving = true;
-
-        float elapsedTime = 0;
-
-        Vector2 origPos = transform.position;
-        targetPos = origPos + direction;
-
-        while (elapsedTime < timeToMove)
-        {
-            rb.MovePosition(origPos + (direction * moveSpeed));
-            elapsedTime += Time.deltaTime;
-            yield return null;
+            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1)
+            {
+                if(!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
+                {
+                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                }
+            }
+            else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1)
+            {
+                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                {
+                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                }
+            }
         }
-
-        transform.position = targetPos;
-
-        isMoving = false;
     }
 }
