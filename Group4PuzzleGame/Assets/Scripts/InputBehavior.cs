@@ -22,18 +22,18 @@ namespace Levels
             Vector2 result = Vector2.zero;
 
             if (Input.GetKeyDown(KeyCode.W))
-                result.y++;
+                result.y += 1;
 
             if (Input.GetKeyDown(KeyCode.A))
-                result.x--;
+                result.x -= 1;
 
             if (Input.GetKeyDown(KeyCode.S))
-                result.y--;
+                result.y -= 1;
 
             if (Input.GetKeyDown(KeyCode.D))
-                result.x++;
+                result.x += 1;
 
-            return result.normalized;
+            return result;
         }
     }
 }

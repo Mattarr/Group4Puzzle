@@ -1,35 +1,77 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-namespace Levels
+public class Enemy : MonoBehaviour
 {
-    public class Enemy : MonoBehaviour
+    public GameObject player;
+    public float moveSpeed;
+    public Transform movePoint;
+    Vector3 lastPos;
+    public LayerMask whatStopsMovement;
+
+    private void Start()
     {
-        public GameObject player;
-        public float speed;
-        public float distance;
-        Vector3 lastPos;
-        public void MoveEnemy(Vector2 direction)
+        movePoint.parent = null;
+    }
+
+    public void MoveEnemy(Vector2 direction)
+    {
+        MoveTowardsPlayer();
+        MoveTowardsPlayer();
+    }
+
+    private void Update()
+    {
+        // update sprite position e.g. Vector2.MoveTowards()
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
+    }
+
+    private void MoveTowardsPlayer()
+    {
+        //print($"Moved enemy ");
+        Vector2 direction = player.transform.position - movePoint.position;
+
+        if (Math.Abs(direction.x) > 0.01f)
+            direction.x = Mathf.Sign(direction.x);
+
+        if (Math.Abs(direction.y) > 0.01f)
+            direction.y = Mathf.Sign(direction.y);
+
+        print($"Moved enemy {direction}");
+        float newDistance = Vector3.Distance(transform.position, movePoint.position);
+        //if (newDistance <= .05f)
+
+
+        if (Mathf.Abs(direction.x) == 1)
         {
-            MoveTowardsPlayer();
-            MoveTowardsPlayer();
+            if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(direction.x, 0f, 0f), .2f, whatStopsMovement))
+            {
+                movePoint.position += new Vector3(direction.x, 0f, 0f);
+            }
         }
 
-        private void Update()
+        if (Mathf.Abs(direction.y) == 1)
         {
-            // update sprite position e.g. Vector2.MoveTowards()
-
+            if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, direction.y, 0f), .2f, whatStopsMovement))
+            {
+                movePoint.position += new Vector3(0f, direction.y, 0f);
+            }
         }
 
-        private void MoveTowardsPlayer()
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Player")
         {
-            // calculate direction to player ***TO DO
-            distance = Vector2.Distance(transform.position, player.transform.position);
-            Vector2 direciton = player.transform.position - transform.position;
-            // check collision
-            // update "real" position
-            print($"Moved enemy ");
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
         }
     }
+
+    /*private void OnDrawGizmos()
+    {
+        Gizmos.DrawCube(center: movePoint.position, size: Vector3.one);
+    }*/
 }
