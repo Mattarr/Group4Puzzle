@@ -492,6 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f070d39a2bd7cdd44abed9608a1b4e24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSound: {fileID: 8300000, guid: c0b9191a91d971c46a54261f2fd6610e, type: 3}
   player: {fileID: 1176822186}
   moveSpeed: 5
   movePoint: {fileID: 622925172}
