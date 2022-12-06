@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
+    public AudioClip deathSound;
     public GameObject player;
     public float moveSpeed;
     public Transform movePoint;
@@ -67,6 +68,7 @@ public class Enemy : MonoBehaviour
         {
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
         }
     }
 
